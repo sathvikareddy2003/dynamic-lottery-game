@@ -165,10 +165,12 @@ button{
     }  */
     @media (max-width: 511px) and (min-width: 400px){
     .box{
-      width:11vw;
+      width:14vw;
       height:3vh;
       font-size:60%;
       line-height: 1;
+      margin:5.5px;
+  border-radius: 5.5px;
       }
 h2{
   font-size: medium;
@@ -181,7 +183,7 @@ h2{
 .box{
   width:16vw;
   height:2.3vh;
-  font-size:56%;
+  font-size:50%;
   line-height: 1;
   padding:3px;
   margin:4px;
@@ -189,5 +191,8 @@ h2{
 }
 h2{
   font-size:small;
+}
+.winningBox{
+  font-size: 0.55rem;
 }
     }
