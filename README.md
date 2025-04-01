@@ -98,7 +98,7 @@ Enjoy the game! 🎮
 
 <b>Option 2: Clone via Git</b>
 
-git clone https://github.com/sathvikareddy2003/lottery_game.git
+git clone https://github.com/sathvikareddy2003/dynamic-lottery-game.git
 
 Navigate to the project folder:
 
