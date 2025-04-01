@@ -4,7 +4,9 @@ The Dynamic Lottery Game is an interactive web-based game where users can random
 
 Designed with a luxurious gold and dark theme, the game provides a thrilling experience using smooth transitions, glowing effects, and audio cues. Built using HTML, CSS, and JavaScript, it ensures seamless functionality and a fun-filled gaming experience.
 
+## Live Project
 
+You can view the live project here: [Dynamic Lottery Game](https://dynamic-lottery-game.netlify.app/)
 
 ##  Features
 
