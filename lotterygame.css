@@ -3,10 +3,11 @@
 }
 h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 200%;
   font-weight: bold;
   color: #FFD700;                                                                                                 
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .lottery-container {
 display: flex;
@@ -18,14 +19,19 @@ background-color:#121212;
   
 }
 .box {
-width: 180px;
+  width: 14vw;  
+  height: 4.3vh;  
+  font-size: 75%;
+  padding:4px;
+/*width: 180px;
 height: 40px;
+font-size: 18px; */
 background-color: #3498db;
 display: flex;
 justify-content: center;
 align-items: center;
 font-weight: bold;
-font-size: 18px;
+line-height: 1;
 margin: 8px;
 color:rgb(229, 228, 228);
 border-radius: 8px;
@@ -41,11 +47,11 @@ transition: transform 0.3s ease-in-out;
   justify-content: center;
 }
 .winningBox {
-  background-color: #DAA520; 
+  background-color: #DAA520;
+  font-size: 16px; 
   color: white; 
-  font-size: 19px;
   font-weight: bold;
-  border: 1px solid #FFD700; 
+  border: 1px solid #ffd700; 
   box-shadow: 0px 0px 12px rgba(218, 165, 32, 0.8); 
 }
 .highlightedBox {
@@ -54,25 +60,27 @@ transition: transform 0.3s ease-in-out;
   font-weight: bold;
   box-shadow: 0px 0px 12px rgba(255, 215, 0, 0.6); 
 }
- button{
+  button{
       background-color: #007bff;
       color: white;
-      font-size: 18px;
+      /* font-size: 18px; */
+      width:12rem;
       font-weight: bold;
       padding: 12px 20px;
       border: 2px solid #0056b3;
       border-radius: 8px;
       cursor: pointer;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
       transition: all 0.3s ease-in-out;
-      margin-top: 20px; 
+      margin-top: 10px; 
       margin-bottom: 20px; 
-  } 
+  }  
+  
+
   button:focus{
       background-color:rgba(21, 164, 21, 0.829) ;
       border: none;
   }
-  @media (max-width: 1245px) and (min-width: 1031px){
+  /* @media (max-width: 1245px) and (min-width: 1031px){
     .box{
       width: 140px;
       font-size: 14px;
@@ -103,7 +111,7 @@ h1{
   font-size: medium;
   }
   } 
-  @media (max-width: 643px) and (min-width: 448px){
+  @media (max-width: 643px) and (min-width: 454px){
     .box{
       width: 60px;
       height: 30px;
@@ -121,11 +129,11 @@ button{
     }
   } 
    
-    @media (max-width: 448px) and (min-width: 283px){
+    @media (max-width: 455px) and (min-width: 371px){
       .box{
-        width: 55px;
+        width: 75px;
         height: 15px;
-        font-size: 5px;
+        font-size: 7.5px;
         margin: 4px;
   }
   button{
@@ -138,3 +146,48 @@ button{
       font-size: small;
       }
     } 
+    @media (max-width: 370px) and (min-width: 265px){
+      .box{
+        width: 65px;
+        height: 15px;
+        font-size: 6.5px;
+        margin: 4px;
+  }
+  button{
+    font-size: 8px;;
+  }
+  #result{
+    font-size: small;
+    }
+    h1{
+      font-size: small;
+      }
+    }  */
+    @media (max-width: 511px) and (min-width: 400px){
+    .box{
+      width:11vw;
+      height:3vh;
+      font-size:60%;
+      line-height: 1;
+      }
+h2{
+  font-size: medium;
+}
+.winningBox{
+  font-size: 0.73rem;
+}
+    }
+    @media (max-width: 400px) {
+.box{
+  width:16vw;
+  height:2.3vh;
+  font-size:56%;
+  line-height: 1;
+  padding:3px;
+  margin:4px;
+  border-radius: 4px;
+}
+h2{
+  font-size:small;
+}
+    }
