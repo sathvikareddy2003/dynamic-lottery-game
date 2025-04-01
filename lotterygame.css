@@ -77,4 +77,10 @@ transition: transform 0.3s ease-in-out;
     }
     #result{
         color:azure;
-    }   
+    }
+    @media (max-width: 600px) {
+      .lottery-sheet-container {
+          flex-direction: column; /* REMOVE THIS if it forces stacking */
+      }
+  }
+  
