@@ -10,7 +10,9 @@ You can view the live project here: [Dynamic Lottery Game](https://dynamic-lotte
 
 ##  Features
 
-✔️<b>50 Lottery Boxes</b> - Each box has a unique number and a prize
+✔️<b>Responsive Design</b> - Media queries ensure optimal viewing across devices.
+
+✔️<b>50 Lottery Boxes</b> - Each box has a unique number and a prize.
 
 ✔️<b> Random Selection</b> - The game randomly picks a number when the user clicks the button.
 
@@ -25,12 +27,10 @@ You can view the live project here: [Dynamic Lottery Game](https://dynamic-lotte
 ✔️ <b>Smooth Transitions</b> - Animated selection process for a suspenseful experience.
 
 
-
-
 ## 🚀 Technology Stack
 <b>HTML</b> → Structure of the webpage
 
-<b>CSS</b> → Styling, animations, and responsiveness
+<b>CSS</b> → Styling, animations, responsiveness and media queries for a seamless experience on all devices.
 
 <b>JavaScript </b>→ Game logic, number selection, and DOM manipulation
 
@@ -52,25 +52,39 @@ Button (#pickNumberBtn)
 
 2️⃣<b> CSS (lotterygame.css)</b>
 
-The CSS file styles the game to give it a luxurious and royal feel.
+Handles styling and responsiveness with:
 
-Dark background with gold highlights for a premium appearance.
+✨ <b>Visual Design:</b> Dark theme (#121212) with gold accents (#FFD700) and glowing animations.
 
-Animations and glowing effects for better user engagement.
+📱 <b>Mobile-First Responsiveness:</b> Media queries (448px-1245px) for perfect phone/tablet adaptation.
 
-Button styling to make interactions smooth.
+🎮 <b>Interactive Elements:</b> Smooth button transitions, touch-friendly boxes, and winning state effects (golden glow + platinum highlights).
 
-Winning and highlighted box styles to make selected numbers stand out.
+📏 <b>Dynamic Scaling:</b> Auto-adjusting box sizes (55px-180px) and fonts (5px-18px) across devices
 
 3️⃣<b> JavaScript (lottery_game.js)</b>
 
-The JavaScript file adds interactivity to the game.
+Here's a concise JavaScript explanation for your README:
 
- It Generates 50 numbered boxes dynamically.
+<b>JavaScript (lottery_game.js)</b>
 
-Assigns random gifts to each number.
+Handles game logic with:  
 
-Handles the lottery drawing logic.
+🎲 <b>Random Selection: </b> 
+Generates 50 unique lottery boxes with prizes using `gifts` array  
+Implements 2-stage random draw (highlight animation + final winner)  
+
+🎯 <b>Interactive Features:</b>  
+6-second countdown with box highlighting animation  
+Sound effects for selection (`tick`) and win celebration (`win`)  
+Dynamic DOM updates for results display and box states  
+
+⚙️ <b>Core Functions:</b>  
+`click` event listener triggers lottery draw sequence  
+Interval-based animation with sequential highlighting  
+Final prize assignment with golden box effect    
+
+<i>Works with CSS classes (`winningBox`, `highlightedBox`) for visual feedback<i>
 
 
 ## Color Reference
