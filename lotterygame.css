@@ -1,0 +1,80 @@
+*{
+    background-color:#121212;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFD700; /* Gold for premium look */
+    text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.6); /* Soft glow */
+    margin-top: 40px;
+}
+.lottery-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+    background-color:#121212;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+}
+.box {
+  width: 180px;
+  height: 40px;
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 8px;
+  color:rgb(229, 228, 228);
+    border-radius: 8px;
+box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s ease-in-out;
+}
+
+.lottery-sheet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .winningBox {
+    background-color: #DAA520; /* Luxurious Metallic Gold */
+    color: white; /* White text for contrast */
+    font-size: 19px;
+    font-weight: bold;
+    border: 3px solid #FFD700; /* Lighter gold border for a premium feel */
+    box-shadow: 0px 0px 12px rgba(218, 165, 32, 0.8); /* Soft golden glow */
+  }
+  .highlightedBox {
+    /* background-color: #2c3e50; 
+    color: white; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); */
+    background-color: #E5E4E2; /* Platinum for luxury contrast */
+    color: #121212; /* Dark text for readability */
+    font-weight: bold;
+    box-shadow: 0px 0px 12px rgba(255, 215, 0, 0.6); /* Subtle gold glow */
+}
+   button{
+        background-color: #007bff; /* Bright blue */
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 12px 20px;
+        border: 2px solid #0056b3;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        margin-top: 20px; /* Added margin on top */
+        margin-bottom: 20px; /* Added margin at the bottom */
+    } 
+    button:focus{
+        background-color:rgba(21, 164, 21, 0.829) ;
+        border: none;
+    }
+    #result{
+        color:azure;
+    }   
